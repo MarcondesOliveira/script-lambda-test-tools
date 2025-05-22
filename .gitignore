@@ -1,0 +1,25 @@
+# Ignore ambiente virtual
+venv/
+.env/
+.envrc
+
+# Ignore arquivos do Lambda Test Tools
+sqs_event_for_lambda_test_tools.json
+
+# Bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos temporários / backup
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project

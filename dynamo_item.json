@@ -1,0 +1,94 @@
+{
+  "Id": {
+    "S": "txn-20240521-001"
+  },
+  "account": {
+    "M": {
+      "accountId": {
+        "S": "acc-99887766"
+      },
+      "cpf": {
+        "S": "123.456.789-00"
+      },
+      "holderName": {
+        "S": "João da Silva"
+      },
+      "type": {
+        "S": "checking"
+      }
+    }
+  },
+  "amount": {
+    "M": {
+      "currency": {
+        "S": "BRL"
+      },
+      "value": {
+        "N": "1500.75"
+      }
+    }
+  },
+  "CcmId": {
+    "S": "ccm-123456"
+  },
+  "createdAt": {
+    "S": "2025-05-21T14:00:00Z"
+  },
+  "destination": {
+    "M": {
+      "agency": {
+        "S": "4321"
+      },
+      "bank": {
+        "S": "237"
+      },
+      "cpf": {
+        "S": "987.654.321-00"
+      },
+      "name": {
+        "S": "Maria Oliveira"
+      },
+      "number": {
+        "S": "98765-0"
+      }
+    }
+  },
+  "metadata": {
+    "M": {
+      "channel": {
+        "S": "mobile"
+      },
+      "ipAddress": {
+        "S": "200.100.50.25"
+      },
+      "notes": {
+        "S": "Transferência agendada para pagamento de serviço"
+      }
+    }
+  },
+  "source": {
+    "M": {
+      "agency": {
+        "S": "1234"
+      },
+      "bank": {
+        "S": "001"
+      },
+      "number": {
+        "S": "56789-0"
+      }
+    }
+  },
+  "status": {
+    "S": "pending"
+  },
+  "transactionId": {
+    "S": "txn-20240521-001"
+  },
+  "type": {
+    "S": "transfer"
+  },
+  "UniqueKey": {
+    "S": "unique-20250521-001"
+  }
+}
