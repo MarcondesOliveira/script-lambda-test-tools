@@ -24,8 +24,8 @@ venv\Scripts\activate
 # No macOS/Linux:
 source venv/bin/activate
 
-# 3. Instale o boto3 (necessário para desserializar o JSON do DynamoDB)
-pip install boto3
+# 3. Instale as dependências do projeto
+pip install -r requirements.txt
 ```
 
 ---
